@@ -1,0 +1,181 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+body {
+	background-color: black;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.ad-container {
+	width: 300px;
+	height: 600px;
+	margin: 50px auto;
+	background-color: #bdb495;
+}
+
+.logo {
+	width: 150px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.product-container {
+	width: 100%;
+	height: 274.5px;
+	background-color: white;
+	position: relative;
+}
+
+#slideshow {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide {
+	width: 100%;
+	float: left;
+	position: absolute;
+	height: 100%;
+	top: -6px;
+	left: 0;
+}
+
+.product-container .product {
+	width: 49%;
+	float: right;
+}
+
+.product-container .product-blurb {
+	width: 47%;
+	float: left;
+	margin: 63px 0 0 10px;
+	font-size: 0.7em;
+}
+
+.carousel-btn {
+	position: absolute;
+	background-color: #bdb495;
+	top: 127.25px;
+	padding: 10px 7px;
+	cursor: pointer;
+	
+}
+
+.carousel-btn-left {
+	left: 0;
+}
+
+.carousel-btn-right {
+	right: 0;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  
+  border-left: 5px solid white;
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent; 
+  
+  border-right:5px solid white; 
+}
+
+.product-text {
+	position: relative;
+	width: 100%;
+	height: 274.5px;
+	height: 300px;
+}
+
+.animation-1,
+.animation-2,
+.animation-3 {
+	position: absolute;
+	z-index: 0;
+}
+
+.animation-1,
+.animation-2 {
+	top: 10px;
+	width: 45%;
+}
+
+.animation-1 {
+    left: 1%;
+    
+}
+
+.animation-2 {
+    right: 1%;  
+}
+
+.text-container {
+	position: absolute;
+	width: 80%;
+	left: 50%;
+	top: 46%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	overflow: hidden;
+}
+
+.text {
+	width: 100%;
+}
+
+.animation-3 {
+	width: 100%;
+	bottom: 26px;
+}
+
+.btn {
+	position: absolute;
+	width: 115px;
+	background-color: #fff;
+	text-align: center;
+	bottom: 40px;
+	left: 30%;
+	padding: 3px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.8em;
+	text-decoration: none;
+	color: #000; 
+}
+
+
+
