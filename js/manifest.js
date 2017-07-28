@@ -23,9 +23,5 @@ var products = [
 		blurb: 'Incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor. Consectetur adipisicing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet.',
 		
 	},
-	{
-		id:4,
-		product_img: './assets/img/300x600-text2.png'
-		
-	},
+	
 ]
