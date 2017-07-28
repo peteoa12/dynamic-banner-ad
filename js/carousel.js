@@ -5,6 +5,7 @@ var slideShow = function(){
 	var stayTime = 2;			        
 	var slideTime = 0.8;				
 
+
 	TweenMax.set($slides.filter(":gt(0)"), {autoAlpha:0});	
 	TweenMax.delayedCall(stayTime, nextSlide);				
 
@@ -39,7 +40,7 @@ var slideShow = function(){
 				TweenMax.to( $slides.eq(currentSlide), slideTime, {autoAlpha:0} );		
 				currentSlide = --currentSlide % $slides.length;										
 				TweenMax.to( $slides.eq(currentSlide), slideTime, {autoAlpha:1} );
-			} 
+			}
 		});
 	}
 
