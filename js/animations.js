@@ -18,5 +18,3 @@ tl1.from(".product-container", 0.5, {opacity:0});
 
 
 
-
-

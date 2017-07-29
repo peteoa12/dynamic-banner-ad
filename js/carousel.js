@@ -43,11 +43,19 @@ var slideShow = function(){
 			}
 		});
 	}
-
+    
 	function setUpListener(){
 		setUpNextSlideArrow();
 		setUpPrevSlideArrow();
 	}
+
+	if (currentSlide == 0 ){
+		TweenMax.to( "#text2", slideTime, {autoAlpha:0} );
+		TweenMax.to( "#text1", slideTime, {autoAlpha:1} );
+	} else {
+		console.log('This is either frame 1,2 or 3');
+	}
+
 
 }
 
